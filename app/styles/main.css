@@ -1,0 +1,172 @@
+html, body {
+    height: 1500px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    background-color: #eeefe9;
+  }
+
+  hr {
+    border-top: 1px solid #c9c9c9;
+  }
+
+  b, strong{
+    font-weight: 400;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Abel', sans-serif;
+  }
+
+  #intro {
+    background-image:url(../images/purpalt.png);
+    color:white;
+    padding:60px 15px 60px;
+  }
+
+  .texto-claro {
+    color:#d2b3d3;
+    font-size:1.2em;
+    text-align: justify;
+  }
+
+  .tpad {
+    margin-top:30px;
+  }
+
+  .img-center {
+    margin:0px auto;
+  }
+
+  .marketing {
+    background-color: #e9e6df;
+  }
+
+  .info {
+    background: #ffa753 url(../images/skyline.png) repeat-x bottom;
+    padding: 80px 0;
+  }
+
+  .info small {
+    color: white;
+  }
+
+  .info a {
+    color:#fff;
+  }
+
+  .info a:hover {
+    color:#F9A04A;
+  }
+
+  .tab-pane {
+    padding:40px 10px 0px 10px;
+    font-weight: bold;
+    font-size:1.5em;
+  }
+
+  .ftr{
+  background: url(../images/shattered.png);
+  padding: 80px 0 60px 0;
+  }
+
+  .ftr address, .ftr a, .ftr p{
+  color: white;
+  }
+
+  .ftr .glyphicon {
+    color:#ffa753;
+  }
+
+  .ft_space{
+  padding:0 10px;
+  }
+
+  .carousel-caption{
+    z-index:10;
+  }
+
+  .carousel-inner > .item > img {
+    position: absolute;
+    top:50px;
+    left:0;
+    min-width:100%;
+    height: auto;
+  }
+
+  .carousel-inner > .item{
+    height:500px;
+  }
+
+  .padded {
+    padding:100px 25px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .sidebar {
+    background-color: #e9e6df;
+    padding:0px 10px 0px 40px;
+  }
+
+  .blog h1 a {
+    color: #96486e;
+  }
+
+  .blog p a {
+    color: #ed7337;
+  }
+
+  .pagination > .active > span:hover {
+    background-color: #ed7337;
+  }
+
+  .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+      z-index: 2;
+      color: #fff;
+      cursor: default;
+      background-color: #96486e;
+      border-color: #96486e;
+  }
+
+  .pagination>.active>a:focus, .pagination>.active>a, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+      z-index: 2;
+      color: #fff;
+      cursor: default;
+      background-color: #ed7337;
+      border-color: #ed7337;
+  }
+
+  .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+      z-index: 3;
+      color: #ed7337; 
+  }
+
+  .pagination>li>a:focus, .pagination>li>a, .pagination>li>span:focus, .pagination>li>span:hover {
+      z-index: 3;
+      color: #ed7337; 
+  }
+
+  @media(min-width: 768px){
+  .carousel-inner > .item{
+      height: 700px;
+    } 
+  }
+
+  .map{
+  height: 350px;
+  width: 100%;
+}
+
+@media(min-width: 768px){
+  .carousel-inner > .item{
+    height: 700px;
+  }
+  .map{
+    height: 500px;
+  }
+}
